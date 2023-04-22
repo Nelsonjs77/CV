@@ -1,0 +1,128 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .header-name {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .header-job-title {
+    font-size: 18px;
+    margin: 0;
+    color: #777777;
+  }
+  
+  .header-right {
+    text-align: right;
+  }
+  
+  .header-phone, .header-email, .header-address {
+    font-size: 18px;
+    margin: 0;
+    color: #777777;
+  }
+  
+  .summary {
+    margin-bottom: 30px;
+  }
+  
+  .summary-heading {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .summary-text {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    color: #777777;
+  }
+  
+  .work-history-heading {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .work-history-item {
+    margin-bottom: 30px;
+  }
+  
+  .work-history-item-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .work-history-item-subtitle {
+    font-size: 18px;
+    margin: 0;
+    color: #777777;
+  }
+  
+  .work-history-item-dates {
+    font-size: 18px;
+    margin: 0;
+    color: #777777;
+  }
+  
+  .work-history-item-description {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    color: #777777;
+  }
+  
+  .skills-heading {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .skills-item {
+    margin-bottom: 20px;
+  }
+  
+  .skills-item-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .skills-item-bar {
+    height: 8px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .skills-item-bar-fill {
+    height: 8px;
+    background-color: #ff7f50;
+    border-radius: 4px;
+  }
+  
+  .skills-item-percent {
+    font-size: 18px;
+    margin: 0;
+    color: #777777;
+  }
+  
